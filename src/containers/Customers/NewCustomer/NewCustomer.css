@@ -1,0 +1,33 @@
+.NewCustomer{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.FormLabel{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #aaa;
+}
+
+.Form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* background: coral; */
+    /* border: solid 1px #ccc; */
+    margin-top: 40px;
+    box-sizing: border-box;
+    padding: 10% 20%;
+}
+
+.FormButtons{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.FormButtons button{
+    width: 200px;
+}

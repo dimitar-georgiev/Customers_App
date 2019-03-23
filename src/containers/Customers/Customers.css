@@ -1,0 +1,15 @@
+.Customers{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    /* background: #fff; */
+}
+
+.SearchControls{
+    grid-row: 1 / 2;
+    position: sticky;
+    top: 0;
+    background: #fff;
+}

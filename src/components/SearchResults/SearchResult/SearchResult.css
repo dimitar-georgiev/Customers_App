@@ -1,0 +1,32 @@
+/*for small screens flex-direction - column*/
+
+.SearchResult{
+    margin: 10px 0;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    border: solid 1px #ccc;
+    /* background: rgb(247, 230, 5); */
+    background: #FFDC00;
+    cursor: pointer;
+    color: #111111;
+}
+
+.SearchResultContainer{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    height: 100%;
+}
+
+.Name{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.SmallFont{
+    font-size: .7rem;
+}

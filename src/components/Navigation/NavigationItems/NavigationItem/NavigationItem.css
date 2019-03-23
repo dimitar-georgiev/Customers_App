@@ -1,0 +1,18 @@
+.NavigationItem{
+    height: 57px;;
+    /* width: 100px; */
+    padding: 0 15px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    color: #ccc;
+    justify-content: center;
+    /* color: coral; */
+    /* border: solid 1px #fff; */
+}
+
+.NavigationItem a:hover,
+.NavigationItem a:active,
+.NavigationItem a.active{
+    color: #FFDC00;
+}

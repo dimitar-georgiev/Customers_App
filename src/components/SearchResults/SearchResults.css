@@ -1,0 +1,11 @@
+.SearchResults{
+    width: 100%;
+    /* padding: 10px; */
+    box-sizing: border-box;
+    /* background: coral; */
+}
+
+a, a:visited{
+    text-decoration: none;
+    color: inherit;
+}
